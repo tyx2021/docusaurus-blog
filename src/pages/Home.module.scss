@@ -1,0 +1,21 @@
+@import '../css/typed.scss';
+
+.typewriter {
+	@include typed((
+		"Text 1": (
+			color: orange,
+		),
+		"Text 2": (
+			color: blue,
+		),
+		"Text 3": (
+      color: purple,
+		),
+		"Text 4": (
+      color: purple,
+		),
+		"Text 5": (
+      color: purple,
+		),
+	), 2, (caret-width: 2px));
+}

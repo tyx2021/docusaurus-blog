@@ -35,6 +35,7 @@ const config = {
 	],
 	plugins: [
 		'@docusaurus/theme-live-codeblock',
+		require.resolve('docusaurus-plugin-sass'),
 		async function myPlugin(context, options) {
 			return {
 				name: 'docusaurus-tailwindcss',
@@ -66,7 +67,7 @@ const config = {
 					rehypePlugins: [katex],
 				},
 				theme: {
-					customCss: require.resolve('./src/css/custom.css'),
+					customCss: require.resolve('./src/css/custom.scss'),
 				},
 			}),
 		],

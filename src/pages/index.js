@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import AOS from 'aos';
+import styles from './Home.module.scss';
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ const Homepage = () => {
 				src='https://avatars.githubusercontent.com/u/100410307?v=4'
 			/>
 			<h1 className='text-4xl font-bold text-center'>Tyx2021</h1>
+			<p className={`text-center font-bold text-xl pt-4 ${styles.typewriter}`}></p>
 			<div
 				data-aos='fade-up'
 				className='p-10 rounded-lg items-center max-w-4xl mt-10 sm:w-full dark:bg-slate-800 bg-slate-300 shadow-2xl'
