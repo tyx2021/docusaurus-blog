@@ -2,7 +2,7 @@
 slug: hello-world
 date: 2022-10-17
 title: Hello World
-authors: canaris
+authors: tyx2021
 tags: [hello world]
 ---
 

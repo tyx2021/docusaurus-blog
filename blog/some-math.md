@@ -2,7 +2,7 @@
 slug: a-bit-of-math
 date: 2022-10-18
 title: Some Math Stuff
-authors: canaris
+authors: tyx2021
 tags: [math]
 ---
 
